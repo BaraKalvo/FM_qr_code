@@ -6,17 +6,23 @@
 
 body {
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
   background-color: hsl(212, 46%, 89%);
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
 }
 
 .container {
-  margin: 60px auto;
   padding: 16px 16px 40px 16px;
   max-width: 320px;
   background-color: white;
   border-radius: 20px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
 
 .qrcode-area__image {
@@ -46,7 +52,7 @@ body {
 }
 
 .attribution {
-  padding-top: 20px;
+  padding-top: 30px;
   color: hsl(218, 44%, 22%);
   font-size: 11px;
   text-align: center;
